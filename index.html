@@ -4,215 +4,230 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <title>Ibby | Portfolio</title>
-    <meta name="description" content="Ibby's portfolio — EUS engineering work experience + projects." />
-
+    <title>Ibz-Tech | Portfolio</title>
+    <meta
+      name="description"
+      content="Ibz-Tech — EUS work experience at Schonfeld + portfolio build log (Git/GitHub/VS Code)."
+    />
+    <link rel="icon" href="favicon.ico" type="image/x-icon"/>
     <link rel="stylesheet" href="style.css" />
   </head>
 
   <body>
-    <!-- Top nav -->
     <header class="nav">
-      <a class="logo" href="#top">ibby<span class="dot">.</span></a>
-      <nav class="nav-links">
-        <a href="#work">Work</a>
-        <a href="#skills">Skills</a>
-        <a href="#about">About</a>
-        <a href="#contact" class="btn">Contact</a>
+      <a class="logo" href="#top">ibz-tech<span class="cursor">_</span></a>
+
+      <nav class="nav-links" aria-label="Primary">
+        <a href="#technical">Technical</a>
+        <a href="#links">Links</a>
       </nav>
     </header>
 
-    <!-- Hero -->
     <main id="top" class="container">
       <section class="hero">
         <div class="hero-left">
-          <p class="badge">15 • First website • Future IT support / EUS engineer</p>
-          <h1>Introducing <span class="accent">Ibby</span> to the world</h1>
-          <p class="subtitle">
-            This is my portfolio. Right now it shows what I worked on during a
-            week of work experience as an <strong>EUS Engineer</strong> at Schonfeld.
-            Over time I’ll add projects, certifications, and more.
+          <h1>Ibz-Tech<span class="glow">.</span></h1>
+
+          <p class="sub">
+            Portfolio site (GitHub Pages). Current content: my completed work
+            experience as an <strong>EUS Engineer</strong> at
+            <strong>Schonfeld</strong>, plus how I built and published this
+            website using Git/GitHub/VS Code.
           </p>
+
+          <div class="hero-actions">
+            <a class="btn" href="#schonfeld">Schonfeld experience</a>
+            
+            <a class="btn ghost" href="#site">Site build log</a>
+          </div>
         </div>
 
         <div class="hero-right">
-          <div class="card highlight">
-            <h2>What I’m aiming for</h2>
-            <ul class="list">
-              <li>Part-time IT support role after school</li>
-              <li>Build real-world troubleshooting skills</li>
-              <li>Create a portfolio that proves I can deliver</li>
-            </ul>
-            <p class="muted">
-              Tip: keep adding small projects. Consistency wins.
-            </p>
+          <div class="terminal">
+            <div class="terminal-bar">
+              <span class="dot red"></span>
+              <span class="dot yellow"></span>
+              <span class="dot green"></span>
+              <span class="terminal-title">ibz-tech.summary</span>
+            </div>
+            <div class="terminal-body">
+              <p><span class="p">></span> EUS work experience: completed</p>
+              <p><span class="p">></span> device builds: phones • laptops • PCs</p>
+              <p><span class="p">></span> tools: git • github • vscode</p>
+            </div>
           </div>
         </div>
       </section>
 
-      <!-- Work / Experience -->
-      <section id="work" class="section">
+      <!-- Schonfeld -->
+      <section id="schonfeld" class="section">
         <div class="section-head">
-          <h2>Work Experience (EUS)</h2>
-          <p class="muted">A week at Schonfeld — examples of what I helped with.</p>
+          <h2>Work experience — Schonfeld (EUS)</h2>
+          <p class="muted">Completed during a one-week placement. Schonfeld Strategic Advisors is a global, multi-manager hedge fund. It runs multiple investment teams and strategies across markets (for example, equities and macro), with a focus on risk management, technology, and disciplined investment processes, and it supports those teams with central functions like End User Support (EUS), infrastructure, and operations.
         </div>
 
         <div class="grid">
-          <!-- Replace the text in these cards with your real tasks -->
           <article class="card">
-            <h3>Onboarding / Setup Support</h3>
-            <p class="muted">
-              Helped prepare user devices and accounts, checked setup steps, and
-              made sure everything worked for day-one productivity.
-            </p>
+            <h3>Team routines</h3>
+            <ul class="bullets">
+              <li>Accompanied the team during daily and weekly stand-ups.</li>
+            </ul>
             <div class="tags">
-              <span class="tag">Windows</span>
-              <span class="tag">Accounts</span>
-              <span class="tag">Checks</span>
+              <span class="tag">Stand-ups</span>
+              <span class="tag">Team ops</span>
             </div>
           </article>
 
           <article class="card">
-            <h3>Troubleshooting + Documentation</h3>
-            <p class="muted">
-              Investigated issues, tried fixes step-by-step, and wrote down what
-              worked so it’s repeatable.
-            </p>
+            <h3>Vendor exposure</h3>
+            <ul class="bullets">
+              <li>Joined vendor meetings discussing company phone contracts.</li>
+            </ul>
             <div class="tags">
-              <span class="tag">Problem-solving</span>
-              <span class="tag">Notes</span>
-              <span class="tag">Process</span>
+              <span class="tag">Vendors</span>
+              <span class="tag">Telecoms</span>
             </div>
           </article>
 
           <article class="card">
-            <h3>Hardware / Desk-side Support</h3>
-            <p class="muted">
-              Assisted with peripherals and workstation setup (monitors, docking,
-              connectivity) and basic checks.
-            </p>
+            <h3>Meeting room tech</h3>
+            <ul class="bullets">
+              <li>Upgraded iPads used as meeting room booking displays.</li>
+            </ul>
             <div class="tags">
-              <span class="tag">Peripherals</span>
-              <span class="tag">Setup</span>
+              <span class="tag">iPad</span>
+              <span class="tag">Deployment</span>
+            </div>
+          </article>
+
+          <article class="card">
+            <h3>Infrastructure learning</h3>
+            <ul class="bullets">
+              <li>
+                Learned how server rooms support large organisations, including
+                the purpose of backup power supplies (UPS).
+              </li>
+            </ul>
+            <div class="tags">
+              <span class="tag">Server room</span>
+              <span class="tag">UPS</span>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <!-- Technical -->
+      <section id="technical" class="section">
+        <div class="section-head">
+          <h2>Technical work completed</h2>
+          <p class="muted">Hands-on tasks (kept high-level).</p>
+        </div>
+
+        <div class="grid">
+          <article class="card neon-border">
+            <h3>Device builds</h3>
+            <ul class="bullets">
+              <li>Independently completed build processes for mobile phones.</li>
+              <li>Independently completed build processes for laptops.</li>
+              <li>Independently completed build processes for PCs.</li>
+            </ul>
+            <div class="tags">
+              <span class="tag">Build process</span>
+              <span class="tag">Devices</span>
+              <span class="tag">Validation</span>
+            </div>
+          </article>
+
+          <article class="card neon-border">
+            <h3>Level 1 troubleshooting</h3>
+            <ul class="bullets">
+              <li>Basic software troubleshooting (Level 1).</li>
+              <li>Basic hardware troubleshooting (Level 1).</li>
+            </ul>
+            <div class="tags">
+              <span class="tag">L1</span>
               <span class="tag">Support</span>
+              <span class="tag">Escalation-ready</span>
             </div>
           </article>
+        </div>
+      </section>
 
+      <!-- This site -->
+      <section id="site" class="section">
+        <div class="section-head">
+          <h2>This website (GitHub Pages)</h2>
+          <p class="muted">What I used to build and publish this site.</p>
+        </div>
+
+        <div class="grid">
           <article class="card">
-            <h3>Customer Service Mindset</h3>
-            <p class="muted">
-              Practiced being clear, calm, and helpful—making sure users feel
-              supported and informed.
-            </p>
+            <h3>Tools used</h3>
+            <ul class="bullets">
+              <li>VS Code for editing.</li>
+              <li>Git for version control.</li>
+              <li>GitHub for hosting the repo.</li>
+              <li>GitHub Pages for deploying a static site.</li>
+              <li>HTML + CSS for structure and styling.</li>
+            </ul>
             <div class="tags">
-              <span class="tag">Communication</span>
-              <span class="tag">Teamwork</span>
-              <span class="tag">Professional</span>
+              <span class="tag">VS Code</span>
+              <span class="tag">Git</span>
+              <span class="tag">GitHub</span>
+              <span class="tag">Pages</span>
+            </div>
+          </article>
+
+          <article class="card">
+            <h3>Future space</h3>
+            <ul class="bullets">
+              <li>Add more experience entries.</li>
+              <li>Add projects + screenshots.</li>
+              <li>Add certifications.</li>
+              <li>Add a simple CV download.</li>
+            </ul>
+            <div class="tags">
+              <span class="tag">Reserved</span>
+              <span class="tag">Roadmap</span>
             </div>
           </article>
         </div>
-
-        <div class="note card">
-          <strong>Make this section real:</strong> replace these cards with your actual tasks.
-          If there’s anything you can’t share publicly, write it more generally
-          (no internal names, systems, or sensitive details).
-        </div>
       </section>
 
-      <!-- Skills -->
-      <section id="skills" class="section">
+      <!-- Links -->
+      <section id="links" class="section">
         <div class="section-head">
-          <h2>Skills</h2>
-          <p class="muted">What I used + what I’m learning next.</p>
+          <h2>Links</h2>
+          <p class="muted">Keep this minimal and professional.</p>
         </div>
 
         <div class="grid">
           <article class="card">
-            <h3>Core</h3>
-            <ul class="list">
-              <li>Troubleshooting mindset</li>
-              <li>Clear communication</li>
-              <li>Following processes</li>
-              <li>Documenting fixes</li>
-            </ul>
-          </article>
-
-          <article class="card">
-            <h3>Technical</h3>
-            <ul class="list">
-              <li>Windows basics</li>
-              <li>Networking basics (Wi‑Fi, VPN concepts)</li>
-              <li>Hardware setup</li>
-              <li>Web fundamentals (HTML/CSS/JS)</li>
-            </ul>
-          </article>
-
-          <article class="card">
-            <h3>Next goals</h3>
-            <ul class="list">
-              <li>Build more projects for GitHub</li>
-              <li>Learn basic scripting</li>
-              <li>Get a beginner IT certification</li>
-            </ul>
-          </article>
-        </div>
-      </section>
-
-      <!-- About -->
-      <section id="about" class="section">
-        <div class="section-head">
-          <h2>About me</h2>
-          <p class="muted">A short intro you can improve over time.</p>
-        </div>
-
-        <div class="card">
-          <p>
-            I’m Ibby, a student who enjoys technology and problem-solving. I built
-            this website as my first portfolio and I’m using it to show what I can do.
-          </p>
-          <p class="muted">
-            I’m interested in IT support and end-user computing because I like helping people
-            and fixing real problems.
-          </p>
-        </div>
-      </section>
-
-      <!-- Contact -->
-      <section id="contact" class="section">
-        <div class="section-head">
-          <h2>Contact</h2>
-          <p class="muted">Add links that employers can click quickly.</p>
-        </div>
-
-        <div class="grid">
-          <article class="card">
-            <h3>Links</h3>
-            <ul class="list">
-              <li><a href="https://github.com/YOUR_USERNAME" target="_blank" rel="noreferrer">GitHub</a></li>
-              <li><a href="https://www.linkedin.com/in/YOUR_USERNAME" target="_blank" rel="noreferrer">LinkedIn</a></li>
-              <li><a href="mailto:YOUR_EMAIL@example.com">YOUR_EMAIL@example.com</a></li>
-            </ul>
-            <p class="muted small">
-              Don’t include your home address/phone number publicly.
+            <h3>GitHub</h3>
+            <p>
+              <a href="https://github.com/ibz-tech" target="_blank" rel="noreferrer">
+                https://github.com/ibz-tech
+              </a>
             </p>
           </article>
 
           <article class="card">
-            <h3>Quick message</h3>
-            <p class="muted">
-              GitHub Pages is static, so this form won’t send emails by itself (yet).
-              For now, the best contact is email/LinkedIn.
-            </p>
+            <h3>Email (optional)</h3>
+            <p class="muted">Add a public email when you’re ready.</p>
+            <!-- Example:
+            <p><a href="mailto:you@example.com">you@example.com</a></p>
+            -->
           </article>
         </div>
       </section>
 
       <footer class="footer">
-        <span>© <span id="year"></span> Ibby</span>
-        <span class="muted">Built with HTML/CSS/JS • Hosted on GitHub Pages</span>
+        <span>© <span id="year"></span> Ibz-Tech</span>
       </footer>
     </main>
 
-    <script src="index.js"></script>
+    <script>
+      document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
   </body>
 </html>
